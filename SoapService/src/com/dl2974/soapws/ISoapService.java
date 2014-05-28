@@ -11,5 +11,8 @@ public interface ISoapService {
 	@WebMethod
 	public String tester(String name);
 	
+	@WebMethod
+	public String power(String name);
+	
 }
 
