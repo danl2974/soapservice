@@ -12,7 +12,7 @@ public interface ISoapService {
 	public String tester(String name);
 	
 	@WebMethod
-	public String power(String name);
+	public String power(String number);
 	
 }
 

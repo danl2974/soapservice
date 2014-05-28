@@ -14,6 +14,7 @@ public class SoapServiceImpl implements ISoapService {
 	 public String power(String number) {
 		 
 		  double result = Math.pow(Double.valueOf(number), 2.0);
+		  
 		  return String.valueOf(result);
 		  
 		 }	 
