@@ -12,25 +12,25 @@ import javax.xml.bind.annotation.XmlType;
 @XmlType(name = "tester", namespace = "http://soapws.dl2974.com/")
 public class Tester {
 
-    @XmlElement(name = "arg0", namespace = "")
-    private String arg0;
+    @XmlElement(name = "message", namespace = "")
+    private String message;
 
     /**
      * 
      * @return
      *     returns String
      */
-    public String getArg0() {
-        return this.arg0;
+    public String getMessage() {
+        return this.message;
     }
 
     /**
      * 
-     * @param arg0
-     *     the value for the arg0 property
+     * @param message
+     *     the value for the message property
      */
-    public void setArg0(String arg0) {
-        this.arg0 = arg0;
+    public void setMessage(String message) {
+        this.message = message;
     }
 
 }
